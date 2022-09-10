@@ -25,7 +25,7 @@ const Food = () => {
 			<h1 className='text-orange-600 font-bold text-4xl text-center'>
 				Top Rated Menu Items
 			</h1>
-			<div className='flex flex-col  justify-between'>
+			<div className='flex flex-col justify-between'>
 				<div>
 					<p className='font-bold text-gray-700'>Filter Type</p>
 					<div className='flex justify-between flex-wrap'>
@@ -103,7 +103,7 @@ const Food = () => {
 					</div>
 				</div>
 
-				<div className='grid grid-cols-2 lg:grid-cols-4 gap-6 pt-4'>
+				<div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pt-4'>
 					{foods.map((item, index) => (
 						<div
 							key={index}
